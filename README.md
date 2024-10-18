@@ -3,7 +3,7 @@
 ## LRU Cache
 An in memory cache implementation that expires the least recently used items, and limits cache size by a maximum number of items.
 
-## API
+## API (ruby example code; implemented in Golang)
 ```bash
 # A cache object can be instantiated in memory. It requires the max number of records as an argument:
 cache = Cache.new(max_size: 100)
