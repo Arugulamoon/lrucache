@@ -26,3 +26,8 @@ cache.clear
 # The number of records can be fetched at any time:
 cache.count
 ```
+
+## Unit Tests
+```bash
+go test ./...
+```
